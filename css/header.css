@@ -1,0 +1,85 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 200px;
+    width:  100%;
+}
+
+.tittle {
+    height: 80%;
+    width:  100%;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    height: 33.33%;
+    width:  100%;
+}
+
+.topArg {
+    height: 100%;
+    width:  75%;
+    background-color: skyblue;
+}
+
+.topAlm {
+    height: 100%;
+    width:  25%;
+    background-color: Black;
+}
+
+
+.middle {
+   display: flex;
+    flex-direction: row;
+    height: 33.33%;
+    width:  100%;
+}
+
+.middleArg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width:  70%;
+    background-color: white;
+}
+
+.sol {
+    max-width:100%;
+    max-height:100%;
+}
+
+.middleAlm {
+    height: 100%;
+    width:  30%;
+    background-color: red;
+}
+
+.bottom {
+   display: flex;
+    flex-direction: row;
+    height: 33.33%;
+    width:  100%;
+}
+
+.bottomArg {
+    height: 100%;
+    width:  65%;
+    background-color: skyblue;
+}
+
+.bottomAlm {
+    height: 100%;
+    width:  35%;
+    background-color: yellow;
+}
+
+
+.navBar {
+    height: 20%;
+    width:  100%;
+    background-color: blue;
+}
