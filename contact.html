@@ -25,39 +25,43 @@
         <header>
         </header>
         <main>
-            <div class="titleContainer">
-                <h3>Somos expertos en los servicios de pruebas hidráulicas</h3>
-                <h4 class="texto-corredera">Contáctanos</h4>
-            </div>
+            <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13361.70641806072!2d-60.509921!3d-33.1504255!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7a27778fc6ab16e2!2sRUPPEL%20INGENIERIA!5e0!3m2!1ses-419!2sar!4v1641161936713!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" ></iframe>
             <div class="formContainer mt-5">
                 <form action="">
-                    <div  class="nameLastname">
-                        <label for="name" class="form-label">Nombre y Apellido</label>
-                        <input type="text" class="form-control" id="name" required>
+                    <div class="boxFormLeft">
+                        <div  class="nameLastname">
+                            <label for="name" class="form-label">Nombre y Apellido</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="phoneNumber">
+                            <label for="phone" class="form-label">Numero de telefono</label>
+                            <input type="text" class="form-control" id="phone" placeholder="+54 (341)203-0193" required>
+                        </div>
+                        <div class="email">
+                            <label for="emailInfo" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="emailInfo" required>
+                        </div>
                     </div>
-                    <div class="phoneNumber">
-                        <label for="phone" class="form-label">Numero de telefono</label>
-                        <input type="text" class="form-control" id="phone" placeholder="+54 (341)203-0193" required>
-                    </div>
-                    <div class="country">
-                        <label for="lastName" class="form-label">Pais</label>
-                        <input type="text" class="form-control" id="lastName" required>
-                    </div>
-                    <div class="email">
-                        <label for="emailInfo" class="form-label">E-mail</label>
-                        <input type="email" class="form-control" id="emailInfo" required>
-                    </div>
-
-                    <div class="coments">
-                        <label for="comments" class="form-label">Comentarios, preguntas</label>
-                        <textarea class="form-control" id="comments" rows="4" required></textarea>
-                    </div>
-                    <div class="buttonSubmitContainer">
-                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    <div class="boxFormRight">
+                        <div class="coments">
+                            <label for="comments" class="form-label">Comentarios, preguntas</label>
+                            <textarea class="form-control" id="comments" rows="7" required></textarea>
+                        </div>
+                        <div class="buttonSubmitContainer">
+                            <button type="submit" class="btn btn-primary fw-bolder">Enviar</button>
+                        </div>
                     </div>
                 </form>
-                <div class="image">
-                    <img src="assets/solArg.png" alt="solArg" class="solArg">
+            </div>
+
+            <!-- ESTO ES ALGO TEMPORAL, SOLO PARA DARLE FORMITA :) -->
+            <div class="algo">
+                <img src="assets/solArg.png" alt="">
+                <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, excepturi expedita quod sed ad fuga, facilis nostrum tenetur ipsa veniam illo! Aliquid, eaque ducimus? Sint enim aliquam error quae possimus..</span>
+                <div class="address">
+                    <h4>Encontranos en:</h4>
+                    <h5>Sarmiento 821</h5>
+                    <h5>Arroyo Seco</h5>
                 </div>
             </div>
         </main>

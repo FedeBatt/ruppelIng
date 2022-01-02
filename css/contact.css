@@ -12,57 +12,67 @@ body{
 .formContainer {
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
 }
 
 form{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 2px;
     justify-content: center;
     padding: 0.5em;
-    width: 65%;
-}
-
-.nameLastname {
-    width: 49%;
-}
-
-.phoneNumber{
-    width: 49%;
-}
-
-.country{
-    width: 33%;
-}
-
-.email{
-    width:65%
-}
-
-.coments{
-    width:98%;
-}
-
-.image{
-    width:35%;
-}
-
-.solArg{
+    gap: 1rem;
     width: 100%;
 }
+
+.boxFormLeft{
+    width: 40%;
+}
+
+.boxFormRight{
+    width: 40%;
+}
+
 
 .buttonSubmitContainer{
-    width: 100%;
     display: flex;
     justify-content: flex-end;
-    border: 1px solid black;
-    align-items: center;
+    margin-top: 1rem;
 }
 
 .btn{
+    font-size: 16px;
     width: 10rem;
     height: 3rem;
+}
+
+.location{
+    width: 100%;
+    height: 50vh;
+}
+
+.algo{
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: orange;
+    gap: 8rem;
+}
+
+.algo > img{
+    width: 15%;
+}
+
+.algo > span{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    width: 35%;
+}
+
+.address{
+    width: 14%;
+    text-align: right;
 }
