@@ -7,3 +7,46 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+
+.navbar{
+    background-color: orange;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 8%;
+    width: 100%;
+    height: 5rem;
+    /* box-shadow: 0 10px 28px rgba(121, 121, 121, 0.25), 0 10px 10px rgba(114, 114, 114, 0.22); */
+}
+
+.navbar-brand > span{
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.bar{
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin: 4px 0;
+    display: flex;
+}
+
+.nav-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-item > a{
+    color: black;
+    font-weight: bolder;
+    padding: 0;
+    transition: 0.5s;
+}
+
+.nav-item > a:hover{
+    color: rgb(24, 23, 23);
+    font-weight: bolder;
+    border-bottom: 1px solid green;
+}
