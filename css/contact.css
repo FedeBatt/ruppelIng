@@ -54,25 +54,70 @@ form{
 
 .algo{
     align-items:center;
-    display: flex;
-    justify-content: center;
-    color: white;
     background-color: orange;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
     gap: 8rem;
+    justify-content: center;
+    width: 100%;
 }
 
 .algo > img{
-    width: 15%;
+    width: 20%;
 }
 
 .algo > span{
     font-size: 20px;
-    text-align: center;
     font-weight: bolder;
+    text-align: center;
     width: 35%;
 }
 
 .address{
-    width: 14%;
     text-align: right;
+    width: 10%;
+}
+
+@media (max-width: 600px) {
+
+    .boxFormLeft{
+        width: 80%;
+    }
+    
+    .boxFormRight{
+        width: 80%;
+    }
+    
+    
+    .buttonSubmitContainer{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 1rem;
+    }
+    
+    .btn{
+        font-size: 16px;
+        width: 100%;
+        height: 3rem;
+    }
+
+    .algo{
+        gap: 2rem;
+    }
+
+    .algo > img{
+        margin-top: 1rem;
+        width: 50%;
+    }
+    
+    .algo > span{
+        font-size: 18px;
+        width: 80%;
+    }
+    
+    .address{
+        text-align: center;
+        width: 80%;
+    }
 }
